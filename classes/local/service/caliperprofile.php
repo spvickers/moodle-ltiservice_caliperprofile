@@ -56,10 +56,8 @@ class caliperprofile extends \mod_lti\local\ltiservice\service_base {
      */
     public function get_resources() {
 
-        if (empty($this->resources) && (get_config('logstore_caliper', 'endpoint') !== false)) {
-            $this->resources = array();
-            $this->resources[] = new \ltiservice_caliperprofile\local\resource\caliperprofile($this);
-        }
+        $this->resources = array();
+        $this->resources[] = new \ltiservice_caliperprofile\local\resource\caliperprofileresource($this);
 
         return $this->resources;
 

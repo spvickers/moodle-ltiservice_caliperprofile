@@ -39,7 +39,7 @@ defined('MOODLE_INTERNAL') || die();
  * @copyright  2016 SPV Software Products http://www.spvsoftwareproducts.com
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class caliperprofile extends \mod_lti\local\ltiservice\resource_base {
+class caliperprofileresource extends \mod_lti\local\ltiservice\resource_base {
 
     /**
      * Class constructor.

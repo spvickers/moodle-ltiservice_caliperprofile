@@ -27,7 +27,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 
-$plugin->version   = 2016091801;
+$plugin->version   = 2016092200;
 $plugin->requires  = 2016051900;
 $plugin->component = 'ltiservice_caliperprofile';
 $plugin->dependencies = array(
